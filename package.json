@@ -1,0 +1,25 @@
+{
+  "name": "my-team-page",
+  "version": "1.0.0",
+  "description": "![screenshot](screenshot.png)",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css",
+    "start": "npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravinalamada/my-team-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravinalamada/my-team-page/issues"
+  },
+  "homepage": "https://github.com/ravinalamada/my-team-page#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "node-sass": "^4.14.1"
+  }
+}
