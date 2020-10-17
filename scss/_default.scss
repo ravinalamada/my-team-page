@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin-inline-start: 16px;
   margin-inline-end: 16px;
+  background: #FAFAFA;
 }
 
 img {
@@ -12,4 +13,8 @@ img {
 
 li {
   list-style: none;
+}
+
+figure {
+  margin: 0;
 }

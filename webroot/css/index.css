@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'PT Serif-Regular';
-  src: local("PTSerif-Regular"), url("PTSerif-Regular.woff2") format("woff2"), url("PTSerif-Regular.woff") format("woff");
+  src: local("PTSerif-Regular"), url("../fonts/PTSerif-Regular.woff2") format("woff2"), url("../fonts/PTSerif-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -27,13 +27,17 @@ body {
   margin: 0;
   padding: 0;
   margin-inline-start: 16px;
-  margin-inline-end: 16px; }
+  margin-inline-end: 16px;
+  background: #FAFAFA; }
 
 img {
   width: 100%; }
 
 li {
   list-style: none; }
+
+figure {
+  margin: 0; }
 
 .header-container {
   display: flex;
@@ -80,3 +84,20 @@ img:hover {
   margin-block-start: 174px;
   transition-property: margin-block-start;
   transition-duration: .5s; }
+
+figure {
+  position: relative; }
+
+figcaption {
+  font-family: 'PT Serif-Regular', Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: uppercase;
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  left: 100%; }
+
+@media (min-width: 1000px) {
+  figcaption {
+    font-size: 12px; } }
