@@ -1,0 +1,8 @@
+.heading1 {
+  @include PTSerif-Bold;
+}
+
+.heading2,
+.name {
+  @include Poppins-semiBold;
+}

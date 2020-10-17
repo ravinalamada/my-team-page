@@ -1,3 +1,4 @@
+
 .list {
   padding: 0;
   display: flex;
@@ -8,13 +9,14 @@
 
 .items {
   flex-basis: 30%;
-  margin-block-start: 174px;
+  margin-block-end: 150px;
 }
 
 img:hover {
-  overflow-y: hidden;
-  max-height: 500px; /* approximate max height */
-  transition-property: all; // this dude
-  transition-duration: .5s; // this dude
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  margin-block-start: 174px;
+  transition-property: margin-block-start;
+  transition-duration: .5s;
 }
+
+
+

@@ -1,0 +1,37 @@
+$black:#000000;
+$minor-column-min-width: 300px;
+$faux-column-max-width: 1000px;
+$header-width-ideal-ratio: 6;
+$wrapper-desc-width-ideal-ratio: 4;
+$main-width-ratio-total: $header-width-ideal-ratio + $wrapper-desc-width-ideal-ratio;
+$header-ideal-width: percentage($header-width-ideal-ratio / $main-width-ratio-total);
+$wrapper-desc-ideal-width: percentage($wrapper-desc-width-ideal-ratio / $main-width-ratio-total);
+$breakpoint-2-columns-at-wrapper-desc-30-percent: $main-width-ratio-total / $wrapper-desc-width-ideal-ratio * $minor-column-min-width;
+
+@mixin PTSerif-Regular {
+  font-family: 'PT Serif-Regular', Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+@mixin PTSerif-Bold {
+  font-family:  'PT Serif-Bold', Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+
+}
+
+@mixin Poppins-semiBold {
+  font-family: 'Poppins-semiBold', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+@mixin container {
+  max-width: 800px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}

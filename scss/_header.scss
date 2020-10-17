@@ -1,0 +1,21 @@
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (min-width: $breakpoint-2-columns-at-wrapper-desc-30-percent) {
+	header {
+		width: $header-ideal-width;
+  }
+
+	.description-wrapper {
+		width: $wrapper-desc-ideal-width;
+	}
+}
+
+@media (min-width: $faux-column-max-width) {
+  .container {
+    @include container;
+  }
+}
