@@ -24,17 +24,19 @@ figure {
 
 figcaption {
   @include PTSerif-Regular;
+  color: dodgerblue;
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  left: 100%;
+  left: 102%;
 }
 
 
 @media (min-width: $faux-column-max-width) {
   figcaption {
-    font-size: 12px;
+    font-size: 18px;
   }
+
 }
 
 

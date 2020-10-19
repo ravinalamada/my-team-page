@@ -28,7 +28,7 @@ body {
   padding: 0;
   margin-inline-start: 16px;
   margin-inline-end: 16px;
-  background: #FAFAFA; }
+  background: #FFDD78; }
 
 img {
   width: 100%; }
@@ -60,14 +60,17 @@ figure {
   font-family: 'PT Serif-Bold', Helvetica, sans-serif;
   font-size: 36px;
   line-height: 48px;
-  letter-spacing: -0.045em; }
+  letter-spacing: -0.045em;
+  text-shadow: 1px 1px coral;
+  color: purple; }
 
 .heading2,
 .name {
   font-family: 'Poppins-semiBold', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 27px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: seagreen; }
 
 .list {
   padding: 0;
@@ -90,14 +93,15 @@ figure {
 
 figcaption {
   font-family: 'PT Serif-Regular', Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 13px;
   text-transform: uppercase;
+  color: dodgerblue;
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  left: 100%; }
+  left: 102%; }
 
 @media (min-width: 1000px) {
   figcaption {
-    font-size: 12px; } }
+    font-size: 18px; } }

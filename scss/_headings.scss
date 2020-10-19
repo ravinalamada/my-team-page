@@ -1,8 +1,12 @@
+
 .heading1 {
   @include PTSerif-Bold;
+  text-shadow: 1px 1px coral;
+  color: purple;
 }
 
 .heading2,
 .name {
   @include Poppins-semiBold;
+  color: seagreen;
 }
